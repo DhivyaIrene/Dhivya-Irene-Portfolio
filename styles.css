@@ -20,7 +20,7 @@ header {
 }
 
 .header-content h1 {
-    font-size: 3em;
+    font-size: 50px;
     margin: 0;
 }
 
@@ -29,23 +29,44 @@ header {
     margin: 10px 0 0;
 }
 
+button{
+    padding: 10px;
+    background-color: #e9dcdc;
+    margin-top: 30px;
+    border: 2px solid rgb(189, 177, 177);
+    border-radius: 10%;
+    transition: transform 0.5s ease;
+}
+
+button:hover{
+    background-color: #f3d4d4;
+    border: solid 2px rgb(165, 156, 156);
+    transform: scale(1.1);
+}
+
+button a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(77, 76, 76) ;
+    font-family: cursive;
+}
+
 p{
     font-size: 25px;
     font-family: cursive;
 }
 
 h2{
-    font-size: 35px;
+    font-size: 45px;
 }
 
 nav {
-    background-color: #333;
+    background-color: #918f8f;
     padding: 1em 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    transition: all 0.5s ease;
 }
 
 nav ul {
@@ -62,12 +83,15 @@ nav ul li {
 
 nav ul li a {
     color: white;
+    font-size: 18px;
+    font-family: cursive;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 nav ul li a:hover {
-    color: #ff6347;
+    color: #e3b3b3;
+    transform: scale(1.1);
 }
 
 .section {
